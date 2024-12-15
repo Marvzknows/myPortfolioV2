@@ -1,0 +1,7 @@
+- Mobile navbar
+
+- Skills Section
+
+- Add projects image to the assets folder
+
+- Deploy projects
