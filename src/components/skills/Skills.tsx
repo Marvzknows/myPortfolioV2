@@ -1,7 +1,7 @@
 import hostinger from '../../assets/hostinger.svg';
 import xampp from '../../assets/xampp.svg';
 
-export const Card = ({ imgUrl, name }: { imgUrl: string, name: string }) => {
+const Card = ({ imgUrl, name }: { imgUrl: string, name: string }) => {
     return (
         <div className="w-24 md:w-36 bg-primary-neutral p-3 md:p-5 rounded-lg overflow-hidden group flex flex-col gap-2">
             <img

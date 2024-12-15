@@ -11,6 +11,7 @@ const Navbar = () => {
     const NavLinks = [
         { link: "#aboutme", name: "About Me" },
         { link: "#skills", name: "Skills" },
+        { link: "#experience", name: "Experience" },
         { link: "#projects", name: "Project" },
         { link: "#contacts", name: "Contact Me" },
     ];
@@ -46,7 +47,7 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className={`p-4 text-primary-black fixed top-0 left-0 w-full bg-white transition-shadow ${hasShadow ? "shadow-md" : ""
+                className={`z-20 p-4 text-primary-black fixed top-0 left-0 w-full bg-white transition-shadow ${hasShadow ? "shadow-md" : ""
                     }`}
             >
                 <div className="max-w-[1280px] mx-auto flex items-center justify-between">

@@ -1,4 +1,5 @@
 import './App.css'
+import Experience from './components/experience/experience'
 import Header from './components/Header/Header'
 import Navbar from './components/navbar/Navbar'
 import Skills from './components/skills/Skills'
@@ -6,28 +7,36 @@ import Skills from './components/skills/Skills'
 function App() {
 
   return (
-    <div className=' border-error-500 min-h-screen py-1 max-w-[1280px] mx-auto'>
+    <>
+      <div className=' border-error-500 min-h-screen py-1 max-w-[1280px] mx-auto'>
 
-      {/* NAVBAR */}
-      <Navbar />
+        {/* NAVBAR */}
+        <Navbar />
 
-      {/* HEADER */}
-      <Header />
-      
-      {/* SKILLS */}
-      <Skills />
+        {/* HEADER */}
+        <Header />
 
+        {/* SKILLS */}
+        <Skills />
+
+
+      </div>
+    
       {/* EXPERIENCE */}
+      <div className='bg-primary-black min-h-screen w-full'>
+        <Experience />
+      </div>
 
-      {/* ABOUT ME */}
+      <div className=' border-error-500 py-1 max-w-[1280px] mx-auto'>
+        {/* ABOUT ME */}
 
-      {/* MY PROJECTS */}
+        {/* MY PROJECTS */}
 
-      {/* TESTIMONIAL (optional) */}
+        {/* TESTIMONIAL (optional) */}
 
-      {/* CONTACT ME */}
-
-    </div>
+        {/* CONTACT ME */}
+      </div>
+    </>
   )
 }
 

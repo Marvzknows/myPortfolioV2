@@ -16,7 +16,7 @@ const Header = () => {
           <span className="font-bold">
             <TypeAnimation
               sequence={[
-                "Frontend", // First text
+                "Jr.Frontend", // First text
                 2000, // Pause for 1 second
                 "Full Stack Web", // Second text
                 2000, // Pause for 1 second
