@@ -15,22 +15,22 @@ const Footer = () => {
   const Socials = [
     {
       icon: <FiGithub size={18} />,
-      link: "https://github.com/",
+      link: "https://github.com/Marvzknows/",
       label: "GitHub",
     },
     {
       icon: <FiLinkedin size={18} />,
-      link: "https://www.linkedin.com/",
+      link: "https://www.linkedin.com/in/marvin-lim-b36588273/",
       label: "LinkedIn",
     },
     {
       icon: <FaFacebookF size={18} />,
-      link: "https://www.facebook.com/",
+      link: "https://www.facebook.com/marvin.lim.102",
       label: "Facebook",
     },
     {
       icon: <FiMail size={18} />,
-      link: "mailto:your.email@example.com",
+      link: "marvzknows03@gmail.com",
       label: "Email",
     },
   ];
