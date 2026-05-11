@@ -2,6 +2,11 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 import weatherApi from "../../assets/weatherApi.png";
 import weblogo from "../../assets/weblogo.jpg";
 import hero from "../../assets/hero.png";
+import wizy from "../../assets/wizyvision.png";
+import enrollment from "../../assets/capstone/admin.png";
+import kanban from "../../assets/kanban.png";
+import jobportal from "../../assets/jobportal.png";
+import gamedev from "../../assets/gamedev/Screenshot_2024-03-06-09-16-08-246_com.G4.JavaNeoFight.jpg";
 
 type RepoLink = {
   label?: string;
@@ -73,6 +78,83 @@ const Card = ({
 const Projects = () => {
   const projectList: ProjectCardTypes[] = [
     {
+      image: enrollment,
+      title: "Enrollease - Enrollment System",
+      description:
+        "A full-stack enrollment system developed as a capstone project for Kapitangan National High School. Built with Vanilla PHP, MySQL, Bootstrap, and jQuery — deployed on Hostinger.",
+      liveLink: "#",
+      repoLinks: [
+        { link: "https://github.com/Marvzknows/Enrollease.git" },
+        // { label: "Frontend", link: "#" },
+        // { label: "Backend", link: "#" },
+      ],
+    },
+    {
+      image: wizy,
+      title: "WizyVision Visual Q&A",
+      description:
+        "A web application that lets users upload an image and ask natural language questions about its content. Built with React and TypeScript, it leverages Google's Gemini AI as the visual model to deliver accurate, context-aware answers in real time.",
+      liveLink: "https://wizy-vision-software-engineer.vercel.app/",
+      repoLinks: [
+        {
+          link: "https://github.com/Marvzknows/WizyVision-Software-Engineer.git",
+        },
+      ],
+    },
+    {
+      image: kanban,
+      title: "Kanboink - Project Management",
+      description:
+        "A full-stack project management tool with Kanban boards, drag-and-drop task tracking, and a rich-text editor for detailed task descriptions. Built with Next.js, TypeScript, Tailwind, and shadcn/ui on the frontend, with Prisma, Supabase, and Better Auth handling data and authentication on the backend.",
+      liveLink: "https://github.com/Marvzknows/project-management.git",
+      repoLinks: [
+        {
+          link: "https://github.com/Marvzknows/WizyVision-Software-Engineer.git",
+        },
+      ],
+    },
+    {
+      image: jobportal,
+      title: "404JOB - Job Portal",
+      description:
+        "A full-stack job portal connecting employers and job seekers with role-based dashboards, job listings, application tracking, saved jobs, and a rich-text editor for job descriptions. Built with Next.js, TypeScript, Tailwind, shadcn/ui, TanStack Query, and React Hook Form + Zod on the frontend, powered by a Laravel REST API containerized with Docker on the backend.",
+      liveLink: "https://404-job-portal-fe.vercel.app/",
+      repoLinks: [
+        {
+          label: "Frontend",
+          link: "https://github.com/Marvzknows/404_job_portal_FE.git",
+        },
+        {
+          label: "Backend",
+          link: "https://github.com/Marvzknows/404_job_portal.git",
+        },
+      ],
+    },
+    {
+      image: hero,
+      title: "Express-TS-Prisma-Starter",
+      description:
+        "Boilerplate for an Express 5 + TypeScript backend with Prisma 7 (using the new prisma-client generator and the PrismaPg driver adapter) and PostgreSQL via Docker Compose.",
+      // liveLink: "#",
+      repoLinks: [
+        {
+          link: "https://github.com/Marvzknows/express-ts-prisma-postgres-starter.git",
+        },
+      ],
+    },
+    {
+      image: gamedev,
+      title: "JavaNeoFight",
+      description:
+        "Game Concepts: A student has a java exam to take, but these monsterlike distractions hinder him from focusing. His mission is to beat them and get the correct answers for him to pass the said exam",
+      // liveLink: "#",
+      repoLinks: [
+        {
+          link: "https://github.com/Marvzknows/express-ts-prisma-postgres-starter.git",
+        },
+      ],
+    },
+    {
       image: weatherApi,
       title: "Weather App",
       description:
@@ -90,14 +172,10 @@ const Projects = () => {
     },
     {
       image: hero,
-      title: "Enrollment System",
-      description:
-        "A full-stack enrollment system developed as a capstone project for Kapitangan National High School. Built with Vanilla PHP, MySQL, Bootstrap, and jQuery — deployed on Hostinger.",
+      title: "PingMe",
+      description: "Work in progress",
       liveLink: "#",
-      repoLinks: [
-        { label: "Frontend", link: "#" },
-        { label: "Backend", link: "#" },
-      ],
+      repoLinks: [{ link: "#" }],
     },
   ];
 
