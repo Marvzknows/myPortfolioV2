@@ -1,7 +1,8 @@
 import { GoDotFill } from 'react-icons/go';
 import prosol from '../../assets/prosol.jpg';
 import bulsu from '../../assets/bulsu.png';
-import hero from '../../assets/hero.png'
+import hero from '../../assets/hero.png';
+import bigben from '../../assets/weblogo.jpg';
 
 type ExperienceCardTypes = {
     position: string,
@@ -60,29 +61,42 @@ const Experience = () => {
 
     const experienceList = [
         {
-            position: 'Junior Front-End Developer', descriptions: [
-                " Develop new system features, Maintained and enhanced existing system features using React JS with TypeScript while also spearheading the development of innovative new functionalities.",
-                "Took concepts and produced design mockups and prototypes to strengthen designs, enhance user experiences and improve site interactions.",
-                " Developed reusable components to facilitate faster development timelines and improve overall code quality",
-                "Revamping existing systems and web applications",
-            ], date: 'Feb 2024 - Present', logo: prosol, location: 'Malolos City, Central Luzon, Philippines', setup: 'Onsite'
+            position: 'Front-End Developer — Big Ben Group', descriptions: [
+                "Architected and maintained a comprehensive Enterprise Resource Planning (ERP) system used across multiple departments, consolidating fragmented workflows into a single unified platform.",
+                "Engineered new features and maintained core functionalities using React.js, Next.js, and TypeScript, delivering responsive and performant interfaces.",
+                "Pioneered the adoption of TypeScript and Shadcn UI across the team — improving type safety, reducing runtime errors, and establishing a consistent component system.",
+                "Spearheaded the revamp of legacy web systems, modernizing the UI/UX for a more responsive, accessible, and visually consistent platform.",
+                "Built and maintained a reusable component library using Material UI, Tailwind CSS, and Shadcn UI to accelerate feature development across ERP modules.",
+                "Collaborated with UI/UX designers, department heads, and top management to translate business requirements into interactive prototypes and functional features.",
+            ], date: 'Dec 2024 - Present', logo: bigben, location: 'Pulilan, Bulacan, Philippines', setup: 'On-Site'
+        },
+        {
+            position: 'Front-End Developer — Pro-Solutions Technology, Co.', descriptions: [
+                "Owned and maintained four major production systems — Accounting (AMS Lampara), LMS Lampara, Kiosk, and Student Portal/Enrollment (SMS Lampara) — ensuring high availability and stable performance.",
+                "Diagnosed and resolved critical bugs across multiple modules by identifying root causes and shipping effective fixes, significantly improving system reliability.",
+                "Participated actively in code reviews with senior developers, product managers, and product owners, optimizing features to meet technical standards and end-user needs.",
+                "Developed and enhanced system features using React.js, Next.js, and TypeScript, contributing to scalable, maintainable codebases.",
+                "Transformed concepts and requirements into design mockups and interactive prototypes, strengthening layouts before development handoff.",
+                "Built reusable components and revamped existing systems to enhance performance, usability, and maintainability.",
+            ], date: 'Feb 2024 - Dec 2024', logo: prosol, location: 'Malolos, Bulacan, Philippines', setup: 'On-Site'
         },
         {
             position: 'Freelance Full Stack Web Developer', descriptions: [
-                "Took concepts and produced design mockups and prototypes to strengthen designs, enhance user experiences and improve site interactions.",
-                "Delivered user support to clients to train, educate and answer questions.",
-                "Oversaw back-end development using PHP to maintain website integrity.",
-                "Coded websites using HTML, CSS, JavaScript, and jQuery languages."
-            ], date: 'Jan 2023 - Present', logo: hero, location: 'Central Luzon, Philippines', setup: 'Remote'
+                "Translated concepts into interactive design mockups and prototypes to improve usability and strengthen layouts.",
+                "Delivered user support and training to clients — primarily students working on capstone/thesis projects — guiding them through system usage.",
+                "Oversaw back-end development using PHP, Next.js, Express.js, and database technologies (MySQL, PostgreSQL, Prisma, Supabase) to ensure data integrity and secure operations.",
+                "Developed full-stack web applications using React, Next.js, HTML, CSS, JavaScript, and jQuery — implementing responsive designs and dynamic features.",
+                "Integrated modern authentication and authorization solutions (BetterAuth) to secure user access and protect sensitive information.",
+            ], date: 'Jan 2023 - Nov 2024', logo: hero, location: 'Philippines', setup: 'Remote'
         },
         {
-            position: 'Capstone Full Stack Developer', descriptions: [
-                "Used Vanilla PHP for Backend, Bootstrap for CSS framework, JavaScript and JQuery Library for faster development and SQL/MySQL to develop and manage databases.",
-                "Used Hostinger for hosting dynamic website and deployment Built databases and table structures for web applications.",
-                "Implemented continuous integration pipelines for automated testing and deployment of software updates.",
-                "Tested and deployed scalable and highly available software products.",
-                "Reduced page load times by optimizing front-end assets such as JavaScript files, stylesheets, and images.",
-                "Developed functional databases, applications and servers to support websites on back-end."
+            position: 'Full Stack Web Developer — Capstone (BulSU)', descriptions: [
+                "Developed a full-stack Enrollment System for Kapitangan National High School as a client-based capstone project, handling frontend and backend end-to-end.",
+                "Built and managed relational databases and table structures using MySQL, ensuring data integrity and efficient querying across modules.",
+                "Developed the backend using Vanilla PHP, implementing server-side logic, RESTful endpoints, and database interactions.",
+                "Designed and built a responsive frontend using Bootstrap, JavaScript, and jQuery, delivering a clean and accessible UI for school staff and students.",
+                "Deployed and hosted the dynamic web application on Hostinger, managing domain configuration, server setup, and live deployment.",
+                "Delivered a scalable and highly available product, tested thoroughly before handoff to the client institution.",
             ], date: 'May 2023 - Nov 2023', logo: bulsu, location: 'Bulacan State University, Malolos Campus, Philippines', setup: 'Hybrid'
         },
 

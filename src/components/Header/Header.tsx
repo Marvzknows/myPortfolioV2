@@ -16,15 +16,15 @@ const Header = () => {
           <span className="font-bold">
             <TypeAnimation
               sequence={[
-                "Jr.Frontend", // First text
-                2000, // Pause for 1 second
-                "Full Stack Web", // Second text
-                2000, // Pause for 1 second
-                "Freelance Web", // Third text
-                2000, // Pause for 1 second
+                "Front-End",
+                2000,
+                "Full Stack Web",
+                2000,
+                "React / Next.js",
+                2000,
               ]}
-              speed={50} // Typing speed
-              repeat={Infinity} // Repeat indefinitely
+              speed={50}
+              repeat={Infinity}
             />
           </span>
           <span
